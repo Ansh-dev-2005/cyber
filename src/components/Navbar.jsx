@@ -1,71 +1,82 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react"
+import { Link, useLocation } from "react-router-dom"
 
-import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { styles } from "../styles"
 
-const Navbar = () => {
-  const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+import { Logo, MenuIcon, CloseIcon } from "../Assets"
 
+const Navbar = (props) => {
+
+  const [active, setActive] = useState("")
+  const [toggle, setToggle] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+  const [menuItems, setMenuItems] = useState([
+    {
+      _id: "1",
+      title: "Home",
+      href: ''
+    },
+    {
+      _id: "2",
+      title: "About",
+      href: ''
+    },
+    {
+      _id: "3",
+      title: "Organising Committee",
+      href: 'organising-committee'
+    }
+  ])
+
+  const location = useLocation()
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
+      const scrollTop = window.scrollY
       if (scrollTop > 100) {
-        setScrolled(true);
+        setScrolled(true)
       } else {
-        setScrolled(false);
+        setScrolled(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   return (
     <nav
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "bg-[#fff] text-black transition-all duration-500 shadow-lg" : "bg-transparent transition-all duration-500 text-white"
       }`}
     >
-      <div className="w-full text-white flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full text-inherit flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
         >
           {/* <img src={logo} alt="logo" className=" w-16 h-16 object-contain" /> */}
-          <p className="text text-[18px] font-bold cursor-pointer flex">
-            ICACSDF - 2025&nbsp;
-            {/* <span className="sm:block hidden">| Confreence </span> */}
+          <p className="text text-2xl font-bold cursor-pointer flex">
+            ICACSDF - 2025
           </p>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((nav) => (
+          {menuItems.map((item) => (
             <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-blue" : "text-secondary"
-              } hover:text-blue-500 text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              key={item._id}
+              className={`hover:text-blue-500 text-[18px] font-medium cursor-pointer`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link to={`/${item.href}`}>{item.title}</Link>
             </li>
           ))}
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            src={toggle ? close : menu}
+            src={toggle ? CloseIcon : MenuIcon}
             alt="menu"
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
@@ -77,18 +88,14 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-              {navLinks.map((nav) => (
+              {menuItems.map((item) => (
                 <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-blue" : "text-secondary"
-                  }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
+                  key={item._id}
+                  className={`font-poppins font-medium cursor-pointer text-[16px]  ${location.pathname === item.href ? 'text-blue-500' : 'text-secondary'}`}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <Link to={`/${item.href}`}>
+                    {item.title}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -96,7 +103,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

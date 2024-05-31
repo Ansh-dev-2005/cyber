@@ -1,10 +1,11 @@
 import React from 'react'
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 import {styles} from "../styles"
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../Utils/motion"
+
 const About = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white h-[100vh] snap-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pb-20">
         <div className="text-center">
           <motion.h2
@@ -40,7 +41,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default About

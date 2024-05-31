@@ -1,8 +1,15 @@
-import logo from "./Logo.png"
-import menu from "./menu.svg"
-import close from "./close.svg"
-import video from "./montage-video-UPES-Web.webm"
-export { logo,menu,
-    close,
-    video
+import Logo from "./Images/Logo.png"
+import MenuIcon from "./SVGs/menu.svg"
+import CloseIcon from "./SVGs/close.svg"
+import VideoHomeBg from "./Videos/montage-video-UPES-Web.webm"
+import UPESLogo from "./Images/upes-logo.png"
+
+
+
+export { 
+    Logo,
+    MenuIcon,
+    CloseIcon,
+    VideoHomeBg,
+    UPESLogo
  }
