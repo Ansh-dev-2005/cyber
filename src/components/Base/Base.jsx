@@ -3,7 +3,7 @@ import Hero from "../Hero"
 import { useLocation } from "react-router-dom"
 import Counter from "../Counter"
 import PageHero from "../PageHero"
-import { UPESLogo } from "../../Assets"
+import { UPESLogo } from "../../assets"
 
 
 const Base = (props) => {

@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom"
 
 import { styles } from "../styles"
 
-import { Logo, MenuIcon, CloseIcon } from "../Assets"
+import { Logo, MenuIcon, CloseIcon } from "../assets"
 
 const Navbar = (props) => {
 
@@ -25,6 +25,11 @@ const Navbar = (props) => {
       _id: "3",
       title: "Organising Committee",
       href: 'organising-committee'
+    },
+    {
+      _id: "4",
+      title: "Call For Paper",
+      href: 'call-for-paper'
     }
   ])
 

@@ -1,6 +1,6 @@
 import React from "react"
-import Base from "../Components/Base/Base"
-import About from "../Components/About"
+import Base from "../components/Base/Base"
+import About from "../components/About"
 
 const Home = () => {
     return(
