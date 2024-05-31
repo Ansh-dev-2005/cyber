@@ -17,7 +17,7 @@ const PageHero = (props) => {
       </div>
       <div className="inset-0  flex justify-center items-center">
         <div className=" bg-no-repeat bg-center w-full">
-          <Navbar scroll={false} />
+          <Navbar menuItems={props.menu} scroll={false} />
         </div>
       </div>
     </div>

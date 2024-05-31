@@ -6,7 +6,7 @@ import { styles } from '../styles'
 import { motion } from 'framer-motion'
 import Navbar from './Navbar'
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="bg-primary overflow-hidden snap-center">
       <div className="w-screen">
@@ -21,7 +21,8 @@ const Hero = () => {
       </div>
       <div className="absolute inset-0  flex justify-center items-center">
         <div className=" bg-no-repeat bg-center w-full">
-          <Navbar scroll={true} />
+          { console.log(props)}
+          <Navbar menuItems={props.menu} scroll={true} />
           <section className={` w-full h-2/4 mx-auto`}>
             <div
               className={`absolute inset-0 bottom-16  max-w-7xl mx-auto flex flex-row items-start gap-5`}

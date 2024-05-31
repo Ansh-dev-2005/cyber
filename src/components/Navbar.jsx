@@ -10,23 +10,7 @@ const Navbar = (props) => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const [menuItems, setMenuItems] = useState([
-    {
-      _id: "1",
-      title: "Home",
-      href: ''
-    },
-    {
-      _id: "2",
-      title: "About",
-      href: ''
-    },
-    {
-      _id: "3",
-      title: "Organising Committee",
-      href: 'organising-committee'
-    }
-  ])
+
 
   const location = useLocation()
   useEffect(() => {
@@ -62,9 +46,9 @@ const Navbar = (props) => {
             ICACSDF - 2025
           </p>
         </Link>
-
+        {console.log(props)}
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {menuItems.map((item) => (
+          {props.menuItems.data.map((item) => (
             <li
               key={item._id}
               className={`hover:text-blue-500 text-[18px] font-medium cursor-pointer`}
@@ -88,7 +72,7 @@ const Navbar = (props) => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-              {menuItems.map((item) => (
+              {props.menuItems.data.map((item) => (
                 <li
                   key={item._id}
                   className={`font-poppins font-medium cursor-pointer text-[16px]  ${location.pathname === item.href ? 'text-blue-500' : 'text-secondary'}`}
