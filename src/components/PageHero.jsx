@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import Navbar from './Navbar'
+import { VideoHomeBg } from '../Assets'
 
 const PageHero = (props) => {
   return (
@@ -9,7 +10,7 @@ const PageHero = (props) => {
         <div className="bg-video">
           <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
             <source
-              src={require("../assets/Videos/montage-video-UPES-Web.webm")}
+              src={VideoHomeBg}
               type="video/webm"
             />
           </video>

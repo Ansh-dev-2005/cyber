@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Base from "../components/Base/Base";
+import Base from "../Components/Base/Base";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion";
-import Member from "../components/Member/Member";
+import { fadeIn, textVariant } from "../Utils/motion";
+import Member from "../Components/Member/Member";
 
 const ProgramCommittee = () => {
   const [members, setMembers] = useState([
@@ -66,7 +66,7 @@ const ProgramCommittee = () => {
   ]);
   return (
     <Base>
-      <div className="bg-white h-[100vh] snap-center">
+      <div className="bg-white snap-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pb-20">
           <div className="text-center py-2">
             <motion.h2

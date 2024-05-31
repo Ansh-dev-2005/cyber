@@ -3,12 +3,7 @@ import Hero from "../Hero"
 import { useLocation } from "react-router-dom"
 import Counter from "../Counter"
 import PageHero from "../PageHero"
-<<<<<<< HEAD
 import { UPESLogo } from "../../Assets"
-import { getMenu } from "../../Helper"
-=======
-import { UPESLogo } from "../../assets"
->>>>>>> 50bef5376496ecbcf7f3d2f10ddcec0fa25a6064
 
 
 const Base = (props) => {
@@ -17,19 +12,24 @@ const Base = (props) => {
     const [menu, setMenu] = useState({
         data: [
             {
-            _id: "1",
-            title: "Home",
-            href: ''
+                _id: "1",
+                title: "Home",
+                href: ''
             },
             {
-            _id: "2",
-            title: "About",
-            href: ''
+                _id: "2",
+                title: "About",
+                href: ''
             },
             {
-            _id: "3",
-            title: "Organising Committee",
-            href: 'organising-committee'
+                _id: "3",
+                title: "Organising Committee",
+                href: 'organising-committee'
+            },
+            {
+                _id: "4",
+                title: "Call For Papers",
+                href: 'call-for-paper'
             }
         ]
     })

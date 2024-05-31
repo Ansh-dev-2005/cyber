@@ -1,10 +1,10 @@
 import React from "react";
-import Base from "../components/Base/Base";
+import Base from "../Components/Base/Base";
 
 const CallForPaper = () => {
   return (
     <Base>
-      <div className="container mx-auto">
+      <div className="container mx-auto my-2 mb-4">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl font-bold text-center mt-10">
             Call For Paper
@@ -63,13 +63,13 @@ const CallForPaper = () => {
               </thead>
             </table>
           </p>
-          <p className="text-lg text mt-5">
+          <p className="text-lg text mt-5 text-left w-full">
             The conference invites original research papers, technical reports,
             and case studies on the following topics of interest but not limited
             to:
           </p>
           
-          <ul className="list-disc mt-5">
+          <ul className="list-disc mt-5 w-full ml-24 text-left">
             <li>Access Control and Intrusion Detection</li>
             <li>Biometrics and Cryptography</li>
             <li>Cloud Computing Security</li>

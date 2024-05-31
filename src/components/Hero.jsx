@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { styles } from '../styles'
 import { motion } from 'framer-motion'
 import Navbar from './Navbar'
+import { VideoHomeBg } from '../Assets'
 
 const Hero = (props) => {
   return (
@@ -13,7 +14,7 @@ const Hero = (props) => {
         <div className="h-[100vh] bg-video">
           <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
             <source
-              src={require("../assets/Videos/montage-video-UPES-Web.webm")}
+              src={VideoHomeBg}
               type="video/webm"
             />
           </video>
