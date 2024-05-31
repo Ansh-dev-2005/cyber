@@ -3,14 +3,39 @@ import { Link, useLocation } from "react-router-dom"
 
 import { styles } from "../styles"
 
-import { Logo, MenuIcon, CloseIcon } from "../Assets"
+import { Logo, MenuIcon, CloseIcon } from "../assets"
 
 const Navbar = (props) => {
 
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+<<<<<<< HEAD
 
+=======
+  const [menuItems, setMenuItems] = useState([
+    {
+      _id: "1",
+      title: "Home",
+      href: ''
+    },
+    {
+      _id: "2",
+      title: "About",
+      href: ''
+    },
+    {
+      _id: "3",
+      title: "Organising Committee",
+      href: 'organising-committee'
+    },
+    {
+      _id: "4",
+      title: "Call For Paper",
+      href: 'call-for-paper'
+    }
+  ])
+>>>>>>> 50bef5376496ecbcf7f3d2f10ddcec0fa25a6064
 
   const location = useLocation()
   useEffect(() => {

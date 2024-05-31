@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 import Home from "./Pages/Home.jsx"
 import ProgramCommittee from "./Pages/ProgramCommittee.jsx"
+import CallForPaper from "./Pages/CallForPaper.jsx"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Home />}  />
         <Route path="/organising-committee" element={<ProgramCommittee />}  />
+        <Route path="/call-for-paper" element={<CallForPaper />}  />
 
       </Routes>
     </BrowserRouter>

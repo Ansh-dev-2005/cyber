@@ -9,7 +9,7 @@ const PageHero = (props) => {
         <div className="bg-video">
           <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
             <source
-              src={require("../Assets/Videos/montage-video-UPES-Web.webm")}
+              src={require("../assets/Videos/montage-video-UPES-Web.webm")}
               type="video/webm"
             />
           </video>
