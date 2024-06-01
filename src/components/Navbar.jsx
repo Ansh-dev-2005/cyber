@@ -15,10 +15,12 @@ const Navbar = (props) => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY
-      if (scrollTop > 100) {
-        setScrolled(true)
-      } else {
-        setScrolled(false)
+      if(props.scroll) {
+        if (scrollTop > 100) {
+          setScrolled(true)
+        } else {
+          setScrolled(false)
+        }
       }
     }
 
@@ -31,9 +33,12 @@ const Navbar = (props) => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-[#fff] text-black transition-all duration-500 shadow-lg" : "bg-transparent transition-all duration-500 text-white"
-      }`}
+      } w-full flex items-center py-5 fixed top-0 z-20 lg:h-[75px]
+      ${
+        scrolled ? "bg-[#000] text-white transition-all duration-500 shadow-lg" : 
+          !props.scroll ? "bg-[#000] text-white shadow-lg" : "bg-transparent transition-all duration-500 text-white"
+      }
+      `}
     >
       <div className="w-full text-inherit flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -57,7 +62,7 @@ const Navbar = (props) => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center ">
           <img
             src={toggle ? CloseIcon : MenuIcon}
             alt="menu"
