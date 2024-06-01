@@ -8,12 +8,12 @@ const PageHero = (props) => {
     <div className="bg-primary overflow-hidden snap-center h-[75px]">
       <div className="w-screen">
         <div className="bg-video">
-          <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
+          {/* <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
             <source
               src={VideoHomeBg}
               type="video/webm"
             />
-          </video>
+          </video> */}
         </div>
       </div>
       <div className="inset-0  flex justify-center items-center">
