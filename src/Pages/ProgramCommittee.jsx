@@ -73,7 +73,7 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-2xl font-bold tracking-tight text-gray-900"
             >
               Patron{" "}
             </motion.h2>
@@ -95,7 +95,7 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-2xl font-bold tracking-tight text-gray-900"
             >
               Convenor{" "}
             </motion.h2>
@@ -139,7 +139,7 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-2xl font-bold tracking-tight text-gray-900"
             >
               International Advisior Board{" "}
             </motion.h2>
@@ -163,7 +163,7 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-2xl font-bold tracking-tight text-gray-900"
             >
               Organizing Chairs Deans{" "}
             </motion.h2>
@@ -185,7 +185,7 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-2xl font-bold tracking-tight text-gray-900"
             >
               Technical Program Committee{" "}
             </motion.h2>
