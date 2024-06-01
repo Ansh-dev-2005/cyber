@@ -23,14 +23,14 @@ const ProgramCommittee = () => {
     },
     {
       name: "Dr. Ajay Prasad",
-      designation: "",
+      designation: "Prof. UPES Dehradun",
       category: "Convener",
       url: "https://upes.ac.in",
       Title: "Organising Committee",
     },
     {
       name: "Dr. Sushabhan Chodhury",
-      designation: "",
+      designation: "Prof. UPES Dehradun",
       category: "Convener",
       url: "https://upes.ac.in",
       Title: "Organising Committee",
@@ -68,16 +68,17 @@ const ProgramCommittee = () => {
     <Base>
       <div className="bg-white snap-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pb-20">
-          <div className="text-center py-2">
+          <div className="text-left py-2">
             <motion.h2
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-xl font-bold tracking-tight text-gray-900"
             >
               Patron{" "}
             </motion.h2>
-            <div className="flex justify-evenly flex-wrap flex-row p-4">
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
                 .filter((item) => item.category === "Patron")
                 .map((item) => {
@@ -95,11 +96,12 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-xl font-bold tracking-tight text-gray-900"
             >
               Convenor{" "}
             </motion.h2>
-            <div className="flex justify-evenly flex-wrap flex-row p-4">
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
                 .filter((item) => item.category === "Convener")
                 .map((item) => {
@@ -117,11 +119,11 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-xl font-bold tracking-tight text-gray-900"
             >
               Organising Committee{" "}
             </motion.h2> */}
-            <div className="flex justify-evenly flex-wrap flex-row p-4">
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
                 .filter((item) => item.category === "Organising Committee")
                 .map((item) => {
@@ -139,11 +141,12 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-xl font-bold tracking-tight text-gray-900"
             >
               International Advisior Board{" "}
             </motion.h2>
-            <div className="flex justify-evenly flex-wrap flex-row p-4">
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
                 .filter(
                   (item) => item.category === "International Advisior Board"
@@ -163,11 +166,12 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-xl font-bold tracking-tight text-gray-900"
             >
               Organizing Chairs Deans{" "}
             </motion.h2>
-            <div className="flex justify-evenly flex-wrap flex-row p-4">
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
                 .filter((item) => item.category === "Organizing Chairs Deans")
                 .map((item) => {
@@ -185,11 +189,12 @@ const ProgramCommittee = () => {
               initial="initial"
               animate="animate"
               variants={textVariant}
-              className="text-3xl font-bold tracking-tight text-gray-900"
+              className="text-xl font-bold tracking-tight text-gray-900"
             >
               Technical Program Committee{" "}
             </motion.h2>
-            <div className="flex justify-evenly flex-wrap flex-row p-4">
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
                 .filter((item) => item.category === "TPC Chair")
                 .map((item) => {
