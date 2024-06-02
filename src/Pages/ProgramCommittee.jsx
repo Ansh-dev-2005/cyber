@@ -10,7 +10,7 @@ const ProgramCommittee = () => {
     {
       name: "Dr. Ram K Sharma",
       designation: "VC, UPES Dehradun",
-      category: "Patron",
+      category: "Chief Patron",
       url: "https://upes.ac.in",
       Title: "Organising Committee",
     },
@@ -69,6 +69,29 @@ const ProgramCommittee = () => {
       <div className="bg-white snap-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pb-20">
           <div className="text-left py-2">
+            <motion.h2
+              initial="initial"
+              animate="animate"
+              variants={textVariant}
+              className="text-xl font-bold tracking-tight text-gray-900"
+            >
+              Chief Patron{" "}
+            </motion.h2>
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
+              {members
+                .filter((item) => item.category === "Chief Patron")
+                .map((item) => {
+                  return (
+                    <Member
+                      name={item.name}
+                      designation={item.designation}
+                      url={item.url}
+                      category={item.category}
+                    />
+                  );
+                })}
+            </div>
             <motion.h2
               initial="initial"
               animate="animate"

@@ -19,7 +19,7 @@ const Base = (props) => {
             {
                 _id: "2",
                 title: "About",
-                href: ''
+                href: 'about'
             },
             {
                 _id: "3",
