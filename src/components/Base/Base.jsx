@@ -42,7 +42,7 @@ const Base = (props) => {
     //         .catch(err => console.log(err))
     // }, [])
     return (
-        <div className="snap-y snap-proximity overflow-x-hidden">
+        <div className="overflow-x-hidden">
             {!menu ? "Loading" :
                 <>
                     {location.pathname === '/' ? <Hero menu={menu} /> : <PageHero menu={menu} />}
@@ -74,7 +74,7 @@ const Base = (props) => {
                         </div>
                     </div>
                     <footer className="bg-[#020303] h-[50px] flex items-center justify-center">
-                        <p className="text-white">Baked By Ansh & Bhupender With Love</p>
+                        <p className="text-white">Baked By Ansh & Bhupender</p>
                     </footer>
                 </>
             }

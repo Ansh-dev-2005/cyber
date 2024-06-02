@@ -66,7 +66,7 @@ const ProgramCommittee = () => {
   ]);
   return (
     <Base>
-      <div className="bg-white snap-center">
+      <div className="bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pb-20">
           <div className="text-left py-2">
             <motion.h2

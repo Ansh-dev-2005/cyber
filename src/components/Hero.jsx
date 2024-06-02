@@ -9,10 +9,10 @@ import { VideoHomeBg } from '../Assets'
 
 const Hero = (props) => {
   return (
-    <div className="bg-primary overflow-hidden snap-center">
+    <div className="bg-primary overflow-hidden">
       <div className="w-screen">
         <div className="h-[100vh] bg-video">
-          <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
+          <video autoPlay muted loop className="w-full h-full object-cover brightness-50 absolute -z-10">
             <source
               src={VideoHomeBg}
               type="video/webm"
@@ -22,7 +22,6 @@ const Hero = (props) => {
       </div>
       <div className="absolute inset-0  flex justify-center items-center">
         <div className=" bg-no-repeat bg-center w-full">
-          { console.log(props)}
           <Navbar menuItems={props.menu} scroll={true} />
           <section className={` w-full h-2/4 mx-auto`}>
             <div

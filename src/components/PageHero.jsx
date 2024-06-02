@@ -5,7 +5,7 @@ import { VideoHomeBg } from '../Assets'
 
 const PageHero = (props) => {
   return (
-    <div className="bg-primary overflow-hidden snap-center h-[75px]">
+    <div className="bg-primary overflow-hidden h-[75px]">
       <div className="w-screen">
         <div className="bg-video">
           {/* <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
