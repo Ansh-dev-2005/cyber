@@ -12,7 +12,7 @@ const Hero = (props) => {
     <div className="bg-primary overflow-hidden">
       <div className="w-screen">
         <div className="h-[100vh] bg-video">
-          <video autoPlay muted loop className="w-full h-full object-cover brightness-50 absolute -z-10">
+          <video autoPlay muted loop className="w-full h-full object-cover brightness-50 absolute -z-50">
             <source
               src={VideoHomeBg}
               type="video/webm"
