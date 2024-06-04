@@ -65,7 +65,7 @@ const Counter = () => {
                 Minutes
               </div>
             </div>
-            <div className="timer-countdown-square bg-gradient-to-br from-red-600 via-pink-600 to-red-600 w-16 h-16 text-white m-[1px] text-center flex-1  ">
+            {/* <div className="timer-countdown-square bg-gradient-to-br from-red-600 via-pink-600 to-red-600 w-16 h-16 text-white m-[1px] text-center flex-1  ">
               <div className="timer-countdown-square-number ">
                 {" "}
                 {timeLeft.seconds}
@@ -73,7 +73,7 @@ const Counter = () => {
               <div className="timer-countdown-square-text text-sm opacity-30 block mt-0 bg-black  ">
                 Seconds
               </div>
-            </div>
+            </div> */}
           </div>
           {/* <div className="flex  mr-0 row-end-1 justify-end justify-center items-center">
             <div className=" text-base text-center font-bold text-black">
