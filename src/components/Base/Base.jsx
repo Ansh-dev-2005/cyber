@@ -23,7 +23,7 @@ const Base = (props) => {
             },
             {
                 _id: "3",
-                title: "Organising Committee",
+                title: "Program Committee",
                 href: 'organising-committee'
             },
             {
