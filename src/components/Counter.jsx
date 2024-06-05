@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const Counter = () => {
     const calculateTimeLeft = () => {
-      const difference = +new Date("2024-06-11") - +new Date();
+      const difference = +new Date("2025-03-24") - +new Date();
       let timeLeft = {};
 
       if (difference > 0) {
