@@ -30,6 +30,11 @@ const Base = (props) => {
                 _id: "4",
                 title: "Call For Papers",
                 href: 'call-for-paper'
+            },
+            {
+                _id: "5",
+                title: "Registration",
+                href: 'register'
             }
         ]
     })

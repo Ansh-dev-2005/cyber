@@ -194,6 +194,29 @@ const ProgramCommittee = () => {
               variants={textVariant}
               className="text-xl font-bold tracking-tight text-gray-900"
             >
+              Organizing Chairs Deans{" "}
+            </motion.h2>
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
+              {members
+                .filter((item) => item.category === "Organizing Chairs Deans")
+                .map((item) => {
+                  return (
+                    <Member
+                      name={item.name}
+                      designation={item.designation}
+                      url={item.url}
+                      category={item.category}
+                    />
+                  );
+                })}
+            </div>
+            <motion.h2
+              initial="initial"
+              animate="animate"
+              variants={textVariant}
+              className="text-xl font-bold tracking-tight text-gray-900"
+            >
               Convenor{" "}
             </motion.h2>
             <div className="w-1/2 bg-[#000] h-1"></div>
@@ -233,7 +256,7 @@ const ProgramCommittee = () => {
                   );
                 })}
             </div>
-            <motion.h2
+            {/* <motion.h2
               initial="initial"
               animate="animate"
               variants={textVariant}
@@ -243,7 +266,19 @@ const ProgramCommittee = () => {
             </motion.h2>
             <div className="w-1/2 bg-[#000] h-1"></div>
             <div className="flex justify-evenly flex-wrap flex-col p-4">
-              {members
+              
+            </div> */}
+            <motion.h2
+              initial="initial"
+              animate="animate"
+              variants={textVariant}
+              className="text-xl font-bold tracking-tight text-gray-900"
+            >
+              International/National Advisory Board{" "}
+            </motion.h2>
+            <div className="w-1/2 bg-[#000] h-1"></div>
+            <div className="flex justify-evenly flex-wrap flex-col p-4">
+            {members
                 .filter(
                   (item) => item.category === "International Advisior Board"
                 )
@@ -257,40 +292,6 @@ const ProgramCommittee = () => {
                     />
                   );
                 })}
-            </div>
-            <motion.h2
-              initial="initial"
-              animate="animate"
-              variants={textVariant}
-              className="text-xl font-bold tracking-tight text-gray-900"
-            >
-              Organizing Chairs Deans{" "}
-            </motion.h2>
-            <div className="w-1/2 bg-[#000] h-1"></div>
-            <div className="flex justify-evenly flex-wrap flex-col p-4">
-              {members
-                .filter((item) => item.category === "Organizing Chairs Deans")
-                .map((item) => {
-                  return (
-                    <Member
-                      name={item.name}
-                      designation={item.designation}
-                      url={item.url}
-                      category={item.category}
-                    />
-                  );
-                })}
-            </div>
-            <motion.h2
-              initial="initial"
-              animate="animate"
-              variants={textVariant}
-              className="text-xl font-bold tracking-tight text-gray-900"
-            >
-              International/National Advisory Board{" "}
-            </motion.h2>
-            <div className="w-1/2 bg-[#000] h-1"></div>
-            <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
                 .filter((item) => item.category === "IN Advisor")
                 .map((item) => {
