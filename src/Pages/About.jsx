@@ -16,7 +16,7 @@ const About = () => {
             together researchers, practitioners, and professionals from
             academia, industry, and government who are working in the field of
             cyber security, privacy, and digital forensics. The conference will
-            be held in Dehradun, India during 25-27 March 2022. The conference
+            be held in Dehradun, India during 25-27 March 2025. The conference
             will be technically co-sponsored by IEEE UP Section.
           </p>
           <p className="text-lg text mt-5">
@@ -35,9 +35,8 @@ const About = () => {
             submissions are to be in electronic (PDF and MsWord both) format
             through conference website or e-mail.Authors may also submit their
             contributions directly to the Email id:
-            <a href="mailto:gmail.com" className="text-blue-500">
-              gmail.com
-            </a>
+            <a href="mailto:icacsdf@ddn.upes.ac.in" className="text-blue-500">
+            icacsdf@ddn.upes.ac.in            </a>
           </p>
           {/* about upes */}
           <h1 className="text-4xl font-bold text-center mt-10">About UPES</h1>

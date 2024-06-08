@@ -134,6 +134,720 @@ const ProgramCommittee = () => {
       "designation": "Principal Data Scientist",
       "category": "IN Advisor",
       "url": ""
+    },
+    {
+      "name": "Abhijit Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Abhirup Khanna",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Achala Shakya",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Ajay Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Akashdeep Bhardwaj",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Akhilesh Mohan Srivastava",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Alind .",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Alok Aggarwal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Alok Jhaldiyal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Amar Jindal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Amar Shukla",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Ambika Aggarwal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Amit Verma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Amrendra Tripathi",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Anil Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Anurag Jain",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Anushree Sah",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Archana Kumari",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Arjun Arora",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Arun Singh Bhadwal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Aviral Sharma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Avishek Majumder",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Avita Katal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Bhavana Kaushik",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Bhupendra Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Chhotelal Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Christalin Nelson S",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Deepa Joshi",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Deepak Kumar Sharma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Deepika Koundal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Dhirendra Kumar Sharma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Dhiviya Rose J",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Gagan Deep Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Gaytri -",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Gopal Rawat",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Goutam Datta",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Hanumat Sastryg",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Hemant Petwal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Hitesh Kumar Sharma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Jerry w Sangma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Juhi Agarwal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Kamal Raj Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Kapil Gupta",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Karmeshu",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Kaushik Ghosh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Keshav Kaushik",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Keshav Sinha",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Khushboo Jain",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Kingshuk Srivastava",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Kotha Venugopalachary",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Maithilee Laxmanrao Patawar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Manish Kumar Giri",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Manobendra Nath Mondal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Mitali Chugh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Mohammad Ahsan",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Mrittunjoy Guha Majumdar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Muthukumar Ka",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "N Prasanthi Kumari",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Nadeem Yousuf Khanday",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Nayantara Kotoky",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Neelu Jyothi Ahuja",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Neeraj Chugh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Nitika Nigam",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Pallabi Sharma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Panduranga Raviteja",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Pankaj Badoni",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Pankaj Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Pankaj Kundan Dadure",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Piyush Rawat",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Prabhat Ranjan Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Prateek Gupta",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Priya Ranjan",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Priyanka Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Rahul Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Rahul Kumar Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Ram Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Ravi Yadav",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Richa Choudhary",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Rohit Srivastava",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Rohit Tanwar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Roohi Sille",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sachi Choudhary",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sahinur Rahman Laskar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sandeep Pratap Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sandip Kumar Chaurasiya",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sanjeev Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sanoj Kumar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Saroj Snehal Shivagunde",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Saswata Shannigrahi",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Saurabh Jain",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Saurabh Shanu",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Shahid Sultan Hajam",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Shahina Anwarul",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Shamik Tiwari",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Shaurya Gupta",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Shiladitya Bhattacharjee",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Shreya Banerjee",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Shubhi Sharma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Silky Goel",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sonal Talreja",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sonali Vyas",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Subhankar Ghosal",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Subramanian Ravishankar Iyer",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sugandha Sharma",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sunil Gupta",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Surbhi Saraswat",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Sushabhan Choudhury",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Swati Rastogi",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Syed Sajid Hussain",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Tanu Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Tarandeep Kaur Bhatia",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Varun Sapra",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Ved Prakash Bhardwaj",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Vibhu Jately",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Vidyanand Mishra",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Vijendra Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Vinod Patidar",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Virender Kadyan",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
+    },
+    {
+      "name": "Yeshwant Singh",
+      "designation": "",
+      "category": "faculty",
+      "url": "https://upes.ac.in"
     }
 
   ]);
@@ -234,17 +948,17 @@ const ProgramCommittee = () => {
                   );
                 })}
             </div>
-            {/* <motion.h2
+            <motion.h2
               initial="initial"
               animate="animate"
               variants={textVariant}
               className="text-xl font-bold tracking-tight text-gray-900"
             >
               Organising Committee{" "}
-            </motion.h2> */}
+            </motion.h2>
             <div className="flex justify-evenly flex-wrap flex-col p-4">
               {members
-                .filter((item) => item.category === "Organising Committee")
+                .filter((item) => item.category === "faculty")
                 .map((item) => {
                   return (
                     <Member
