@@ -29,13 +29,13 @@ const Hero = (props) => {
             >
               <div>
                 <h1
-                  className={` text-6xl capitalize font-bold leading-relaxed text-white mt-[300px] text-white-100`}
+                  className={` text-5xl capitalize font-bold leading-relaxed text-white mt-[300px] text-white-100`}
                 >
-                  Let’s get you registered
-                  <br className="sm:block hidden" /> for ICACSDF
+                  International Conference on Advancement 
+                  <br className="sm:block hidden" /> in Cyber Security and Digital Forensics
                 </h1>
                 <p className="text-[#dfd9ff] font-medium text-xl lg:leading-[40px]">
-                  June 11-14 | MAC Center, UPES Dehradun
+                  April 9-10 | MAC Center, UPES Dehradun
                 </p>
                 <a
                   class=" relative inline-block py-3 px-6 bg-white cursor-pointer m-0 p-[12px 22px] min-w-[108px] font-[15px] font-bold leading-4 tracking-tight text-center align-middle rounded-3xl touch-manipulation   "

@@ -35,8 +35,8 @@ const Navbar = (props) => {
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 lg:h-[75px]
       ${
-        scrolled ? "bg-[#000] text-white transition-all duration-500 shadow-lg" : 
-          !props.scroll ? "bg-[#000] text-white shadow-lg" : "bg-transparent transition-all duration-500 text-white"
+        scrolled ? "bg-[#151919] text-white transition-all duration-500 shadow-lg" : 
+          !props.scroll ? "bg-[#151919] text-white shadow-lg" : "bg-transparent transition-all duration-500 text-white"
       }
       `}
     >
@@ -47,10 +47,9 @@ const Navbar = (props) => {
         >
           {/* <img src={logo} alt="logo" className=" w-16 h-16 object-contain" /> */}
           <p className="text text-2xl font-bold cursor-pointer flex">
-            ICACSDF - 2025
+            ICACSDF
           </p>
         </Link>
-        {console.log(props)}
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {props.menuItems.data.map((item) => (
             <li

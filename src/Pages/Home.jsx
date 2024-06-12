@@ -55,72 +55,77 @@ const Home = () => {
         {
             "title": "Biometrics and Cryptography",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://images.pexels.com/photos/7788009/pexels-photo-7788009.jpeg?auto=compress"
         },
         {
             "title": "Cloud Computing Security",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-photo/saas-concept-collage_23-2149399281.jpg"
         },
         {
             "title": "Computer Forensics",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-photo/back-view-dangerous-team-hackers-working-new-malware_482257-22976.jpg"
         },
         {
             "title": "Cyber Physical Systems Security",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-photo/medium-shot-hacker-holding-laptop_23-2149101212.jpg"
         },
         {
             "title": "Database and System Security",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-vector/fbi-agent-online-service-platform-police-officer-inspector-investigating-crime-protection-from-cyberattack-terrorist-online-data-base-isolated-flat-vector-illustration_613284-2681.jpg"
         },
         {
             "title": "Information Hiding and Watermarking",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-vector/people-with-selected-folder-icon_53876-28554.jpg"
         },
         {
             "title": "Internet of Things Security",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-vector/technology-background_23-2148141161.jpg"
         },
         {
             "title": "Key Management and Secure Communication",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-vector/flat-safer-internet-day-illustration_23-2151163146.jpg"
         },
         {
             "title": "Malware Analysis and Detection",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-vector/bug-fixing-concept-illustration_114360-2952.jpg"
         },
         {
             "title": "Network Security and Privacy",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-vector/cyber-security-concept_53876-93472.jpg"
         },
         {
             "title": "Security Protocols",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595829.jpg"
         },
         {
             "title": "Security Testing and Auditing",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595831.jpg"
         },
         {
             "title": "Software Security",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress"
         },
         {
             "title": "Web Security",
             "description": "",
-            "themeImage": "https://via.placeholder.com/400x200"
+            "themeImage": "https://img.freepik.com/free-vector/secure-sockets-layer-illustration_23-2149238126.jpg"
+        },
+        {
+            "title": "Internet Of Things ( IoT )",
+            "description": "",
+            "themeImage": "https://img.freepik.com/free-vector/internet-things-concept-illustration_114360-24427.jpg"
         }
     ]
     const features = [
